@@ -1,0 +1,39 @@
+<div class="container">
+	<h2 class="title">Şifre Üretici</h2>
+	<div class="result">
+		<div class="result__title field-title">Şifre Oluştur</div>
+		<div class="result__info right">Kopyala</div>
+		<div class="result__info left">Kopyalandı</div>
+		<div class="result__viewbox" id="result">Şifre Üretmek İçin Butona Tıkla</div>
+		<button id="copy-btn" style="--x: 0; --y: 0"><i class="far fa-copy"></i></button>
+	</div>
+	<div class="length range__slider" data-min="4" data-max="32">
+		<div class="length__title field-title" data-length='0'>Uzunluk:</div>
+		<input id="slider" type="range" min="4" max="32" value="16" />
+	</div>
+
+	<div class="settings">
+		<span class="settings__title field-title">ayarlar</span>
+		<div class="setting">
+			<input type="checkbox" id="uppercase" checked />
+			<label for="uppercase">Büyük Harf</label>
+		</div>
+		<div class="setting">
+			<input type="checkbox" id="lowercase" checked />
+			<label for="lowercase">Küçük Harf</label>
+		</div>
+		<div class="setting">
+			<input type="checkbox" id="number" checked />
+			<label for="number">Sayı</label>
+		</div>
+		<div class="setting">
+			<input type="checkbox" id="symbol" />
+			<label for="symbol">Sembol</label>
+		</div>
+	</div>
+
+	<button class="btn generate" id="generate">ŞİFRE ÜRET</button>
+</div>
+
+
+
